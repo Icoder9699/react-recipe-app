@@ -1,0 +1,20 @@
+.LikedButton{
+    position: absolute;
+    right: 0;
+    width: 50px;
+    border: 1px solid purple;
+    background-color: transparent;
+    height: 25px;
+    color: purple;
+    transition: all 22ms ease-in;
+    &:hover{
+        background-color: purple;
+        color: #fff;
+    }
+    @media(max-width: 768px){
+        top: 7px;
+        right: 12px;
+        background-color: purple;
+        color: #fff;
+    }
+}

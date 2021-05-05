@@ -1,0 +1,23 @@
+.LikedMeals{
+    position: fixed;
+    z-index: 1;
+    top: 70px;
+    right: 70px;
+    width: 50px;
+    height: 25px;
+    border: none;
+    background-color: transparent;
+    svg{
+        fill: purple;
+    }
+    span{
+        position: absolute;
+        font-size: 18px;
+        right: 0;
+        color: purple;
+    }
+    @media(max-width: 768px){
+        top: 65px;
+        right: 10px;
+    }
+}
